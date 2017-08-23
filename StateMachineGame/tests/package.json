@@ -1,0 +1,10 @@
+{
+  "name": "NodeTemplate",
+  "version": "0.0.0",
+  "description": "NodeTemplate",
+  "main": "app.js",
+  "author": {
+    "name": "jared-barnes",
+    "email": ""
+  }
+}

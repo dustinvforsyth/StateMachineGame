@@ -1,0 +1,23 @@
+﻿<div controller="app.components.states.opponentStates.MillenniumSelected">
+    <style component="css-helpers"></style>
+    <h1 style=" height:120px; text-align:center">Millennium Falcon Selected</h1>
+    <div component="group">
+        <div span="4"><img tag="mill" class="selectedImage" src="../../images/Ships_small/millennium_sm.png" /></div>
+    </div>
+    <div component="group">
+        <div component="state-manager" tag="insideState-manager" class="overflow-hidden">
+            <div component="lazy-load-state" lazy-load="oppCurvedTie-state" name="oppCurvedTie-state" lazy-load-class="absolute-fill-parent" class="absolute-fill-parent">
+                <div component="loadingPage2"></div>
+            </div>
+            <div component="lazy-load-state" lazy-load="oppStraitTie-state" name="oppStraitTie-state" lazy-load-class="absolute-fill-parent" class="absolute-fill-parent">
+                <div component="loadingPage2"></div>
+            </div>
+            <div component="lazy-load-state" lazy-load="oppPointTie-state" name="oppPointTie-state" lazy-load-class="absolute-fill-parent" class="absolute-fill-parent">
+                <div component="loadingPage2"></div>
+            </div>
+        </div>
+    </div>
+    <!--<div component="group">
+        <div style="width:100%; text-align:right" tag="opposingShip" span="4"><img style=" margin-right:0;" tag="opponent" class="selectedImage" src="" /></div>
+    </div>-->
+</div>

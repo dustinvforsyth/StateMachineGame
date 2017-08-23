@@ -1,0 +1,19 @@
+﻿body {
+
+}
+
+.displayCells {
+    display:block;
+    vertical-align:middle;
+}
+
+.unSelectedImage {
+    width: 450px;
+}
+
+.unSelectedImage:hover {
+    transform: scale(1.02, 1.02);
+    cursor: pointer;
+    transition: 0.3s ease;     
+}
+

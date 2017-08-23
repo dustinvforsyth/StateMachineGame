@@ -1,0 +1,29 @@
+﻿<div controller="app.components.layouts.LoadingPage">
+    <style>
+        [image] {
+    height:100px;
+    vertical-align:middle;
+    margin-top: 20%;
+    margin-left: 40%;
+    -webkit-animation: rotation 2s linear infinite;
+    -moz-animation: rotation 2s linear infinite;
+    -ms-animation: rotation 2s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes rotation {
+    0%   { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
+}
+@-ms-keyframes rotation {
+    0%   { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(360deg); }
+}
+    </style>
+    <div shadow-root>
+        <img image tag="image" src="../../../images/rebelSeal.jpg" style="height:250px" />
+    </div>
+</div>

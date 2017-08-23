@@ -1,0 +1,24 @@
+﻿<html>
+<head>
+    <title>Home</title>
+    <meta charset="utf-8" />
+    <link href="lib/weblib/css/reset-min.css" rel="stylesheet" />
+    <link href="lib/weblib/css/material.css" rel="stylesheet" />
+    <script type="components/config" src="lib/weblib/components/components.json" root="lib/weblib/components/">
+    </script>
+    <script type="components/config" src="app/components/components.json" root="app/components/">
+    </script>
+    <style component="css-helpers"></style>
+    <link rel="stylesheet" type="text/css" href="app/game.css">
+</head>
+<body style="background-color: white;">
+    <div component="app-main" class="absolute-fill-parent overflow-hidden"></div>
+    <script src="lib/weblib/lib/BASE/BASE.js"></script>
+    <script>
+        BASE.require.loader.setRoot("lib/weblib/lib/BASE/");
+        BASE.require.loader.setNamespace("components", "lib/weblib/components");
+        BASE.require.loader.setNamespace("app", "app/");
+        BASE.require(["BASE.web.components"]);
+    </script>
+</body>
+</html>

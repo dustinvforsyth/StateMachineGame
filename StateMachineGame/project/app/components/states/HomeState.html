@@ -1,0 +1,41 @@
+﻿<div controller="app.components.states.HomeState">
+    <style component="css-helpers"></style>
+
+    <div component="state-manager" tag="state-manager" class="absolute-fill-parent overflow-hidden">
+        <div name="main">
+            <div class="absolute-fill-parent">
+                <h1 style=" height:120px; text-align:center;">Select a Ship</h1>
+                <div tag="rebelShips" component="group">
+                    <div span="4" class="displayCells"><img tag="millennium" class="unSelectedImage" src="../../../images/Ships_small_gs/millennium_sm_gs.png" altSrc /></div>
+                    <div span="4" class="displayCells"><img tag="xWing" class="unSelectedImage" src="../../../images/Ships_small_gs/x-wing_sm_gs.png" /></div>
+                    <div span="4" class="displayCells"><img tag="aWing" class="unSelectedImage" src="../../../images/Ships_small_gs/a-wing_sm_gs.png" /></div>
+                </div>
+                <div component="group">
+                    <div span="4" class="displayCells"><img style="padding-top: 100px" class="unSelectedImage" tag="curvedTie" src="../../../images/Ships_small_gs/curvedTie_sm_gs.png"/></div>
+                    <div span="4" class="displayCells"><img class="unSelectedImage" tag="straitTie" src="../../../images/Ships_small_gs/straitTie_sm_gs.png" /></div>
+                    <div span="4" class="displayCells"><img style="padding-top: 50px" class="unSelectedImage" tag="pointTie" src="../../../images/Ships_small_gs/pointTie_sm_gs.png" /></div>
+                </div>
+            </div>
+        </div>
+        <div component="lazy-load-state" lazy-load="millennium-state" name="millennium-state" lazy-load-class="absolute-fill-parent" class="absolute-fill-parent">
+            <div component="loadingPage"></div>
+        </div>
+        <div component="lazy-load-state" lazy-load="xWing-state" name="xWing-state" lazy-load-class="absolute-fill-parent" class="absolute-fill-parent">
+            <div component="loadingPage"></div>
+        </div>
+        <div component="lazy-load-state" lazy-load="aWing-state" name="aWing-state" lazy-load-class="absolute-fill-parent" class="absolute-fill-parent">
+            <div component="loadingPage"></div>
+        </div>
+        <div component="lazy-load-state" lazy-load="curvedTie-state" name="curvedTie-state" lazy-load-class="absolute-fill-parent" class="absolute-fill-parent">
+            <div component="loadingPage2"></div>
+        </div>
+        <div component="lazy-load-state" lazy-load="straitTie-state" name="straitTie-state" lazy-load-class="absolute-fill-parent" class="absolute-fill-parent">
+            <div component="loadingPage2"></div>
+        </div>
+        <div component="lazy-load-state" lazy-load="pointTie-state" name="pointTie-state" lazy-load-class="absolute-fill-parent" class="absolute-fill-parent">
+            <div component="loadingPage2"></div>
+        </div>
+    </div>
+</div>
+
+

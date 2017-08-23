@@ -1,0 +1,6 @@
+D:\Dustin Documents\StateMachineGame\StateMachineGame\project\bin\project.dll.config
+D:\Dustin Documents\StateMachineGame\StateMachineGame\project\bin\project.dll
+D:\Dustin Documents\StateMachineGame\StateMachineGame\project\bin\project.pdb
+D:\Dustin Documents\StateMachineGame\StateMachineGame\project\obj\Debug\project.csprojResolveAssemblyReference.cache
+D:\Dustin Documents\StateMachineGame\StateMachineGame\project\obj\Debug\project.dll
+D:\Dustin Documents\StateMachineGame\StateMachineGame\project\obj\Debug\project.pdb

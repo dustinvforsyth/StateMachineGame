@@ -1,0 +1,18 @@
+{
+  "aliases": {
+    "app-main": "AppMain.html",
+    "aWing-state": "states/AwingSelected.html",
+    "curvedTie-state": "states/curvedTieState.html",
+    "home-state": "states/homeState.html",
+    "loadingPage": "layouts/LoadingPage.html",
+    "loadingPage2": "layouts/LoadingPage2.html",
+    "millennium-state": "states/MillenniumSelected.html",
+    "oppCurvedTie-state": "states/opponentStates/curvedTieState.html",
+    "oppPointTie-state": "states/opponentStates/pointTieState.html",
+    "oppStraitTie-state": "states/opponentStates/straitTieState.html",
+    "oppXWing-state": "states/opponentStates/XwingSelected.html",
+    "pointTie-state": "states/pointTieState.html",
+    "straitTie-state": "states/straitTieState.html",
+    "xWing-state": "states/XwingSelected.html"
+  }
+}
